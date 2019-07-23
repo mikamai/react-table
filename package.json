@@ -40,7 +40,8 @@
     "prepublish": "yarn build",
     "postpublish": "git push --tags",
     "docs": "yarn watch & cd docs && yarn && yarn start",
-    "docs:build": "yarn build && cd docs && yarn && yarn build"
+    "docs:build": "yarn build && cd docs && yarn && yarn build",
+    "postinstall": "yarn build"
   },
   "dependencies": {
     "classnames": "^2.2.5"
