@@ -143,6 +143,10 @@
 
 **React Table v7** is mostly planned and I (@tannerlinsley) am looking for Patreon support to make it a reality. It will require a decent time commitment on my part to not only implement it, but also help people migrate and maintain it. If you would like to contribute to my Patreon goal for v7, [visit my Patreon and help me out!](https://patreon.com/tannerlinsley). Gold
 
+## Modified version (removed Shiftkey)
+When using column multisort, the user had to press the Shift button.
+This `hacked` version removes the Shift button for the multisort column by "emulating" it.
+
 ## Table of Contents
 
 - [Installation](#installation)
