@@ -345,6 +345,8 @@ export default class ReactTable extends Methods(Lifecycle(Component)) {
             {_.normalizeComponent(column.Header, {
               data: sortedData,
               column,
+              // This is useful to know which is the progression of the clicked buttons!
+              orderByValues: finalState.orderByValues,
             })}
           </div>
           {resizer}
