@@ -3513,7 +3513,9 @@ var ReactTable = function (_Methods) {
             { className: classnames(isResizable && 'rt-resizable-header-content') },
             _.normalizeComponent(column.Header, {
               data: sortedData,
-              column: column
+              column: column,
+              // This is useful to know which is the progression of the clicked buttons!
+              orderByValues: finalState.orderByValues
             })
           ),
           resizer
